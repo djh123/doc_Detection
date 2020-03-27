@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MNN-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MNN",
+			"buildType" : "release",
+			"output" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/libs/armeabi-v7a/libMNN.so",
+			"toolchain" : "4852938531348240058"
+		},
+		"mnncore-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "mnncore",
+			"buildCommand" : "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/release/armeabi-v7a --target mnncore",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/src/main/jni/mnnnetnative.cpp",
+					"workingDirectory" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/src/main/jni/mnnportraitnative.cpp",
+					"workingDirectory" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/build/intermediates/cmake/release/obj/armeabi-v7a/libmnncore.so",
+			"toolchain" : "4852938531348240058"
+		}
+	},
+	"toolchains" : 
+	{
+		"4852938531348240058" : 
+		{
+			"cCompilerExecutable" : "/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+ninja: error: '../../../../libs/armeabi/libMNN.so', needed by '../../../../build/intermediates/cmake/debug/obj/armeabi/libmnncore.so', missing and no known rule to make it

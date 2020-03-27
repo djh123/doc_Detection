@@ -1,0 +1,3 @@
+/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/edit_cache.dir
+/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/rebuild_cache.dir
+/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/mnncore.dir

@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MNN-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "MNN",
+			"buildType" : "debug",
+			"output" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/libs/armeabi/libMNN.so",
+			"toolchain" : "18228655476498248453"
+		},
+		"mnncore-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "mnncore",
+			"buildCommand" : "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/armeabi --target mnncore",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/djh/djh/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r14b/platforms/android-21/arch-arm  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes -isystem /home/djh/djh/android-ndk-r14b/sources/cxx-stl/llvm-libc++/include -isystem /home/djh/djh/android-ndk-r14b/sources/android/support/include -isystem /home/djh/djh/android-ndk-r14b/sources/cxx-stl/llvm-libc++abi/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/src/main/jni/mnnnetnative.cpp",
+					"workingDirectory" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/djh/djh/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r14b/platforms/android-21/arch-arm  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes -isystem /home/djh/djh/android-ndk-r14b/sources/cxx-stl/llvm-libc++/include -isystem /home/djh/djh/android-ndk-r14b/sources/android/support/include -isystem /home/djh/djh/android-ndk-r14b/sources/cxx-stl/llvm-libc++abi/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/src/main/jni/mnnportraitnative.cpp",
+					"workingDirectory" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/build/intermediates/cmake/debug/obj/armeabi/libmnncore.so",
+			"toolchain" : "18228655476498248453"
+		}
+	},
+	"toolchains" : 
+	{
+		"18228655476498248453" : 
+		{
+			"cCompilerExecutable" : "/home/djh/djh/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/djh/djh/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

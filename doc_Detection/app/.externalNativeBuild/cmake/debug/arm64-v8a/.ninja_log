@@ -1,0 +1,13 @@
+# ninja log v5
+7	405	0	CMakeFiles/mnncore.dir/src/main/jni/mnnportraitnative.cpp.o	f3a6f4b33856fc45
+7	454	0	CMakeFiles/mnncore.dir/src/main/jni/mnnnetnative.cpp.o	61dfa1f189243312
+455	542	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmnncore.so	8d8df30293498df
+2	282	0	CMakeFiles/mnncore.dir/src/main/jni/mnnportraitnative.cpp.o	f3a6f4b33856fc45
+2	327	0	CMakeFiles/mnncore.dir/src/main/jni/mnnnetnative.cpp.o	61dfa1f189243312
+328	395	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmnncore.so	8d8df30293498df
+4	375	0	CMakeFiles/mnncore.dir/src/main/jni/mnnportraitnative.cpp.o	f3a6f4b33856fc45
+4	407	0	CMakeFiles/mnncore.dir/src/main/jni/mnnnetnative.cpp.o	61dfa1f189243312
+409	555	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmnncore.so	8d8df30293498df
+4	477	0	CMakeFiles/mnncore.dir/src/main/jni/mnnportraitnative.cpp.o	f3a6f4b33856fc45
+4	523	0	CMakeFiles/mnncore.dir/src/main/jni/mnnnetnative.cpp.o	61dfa1f189243312
+524	649	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmnncore.so	8d8df30293498df

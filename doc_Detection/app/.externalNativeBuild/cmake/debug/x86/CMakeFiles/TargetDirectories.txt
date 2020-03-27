@@ -1,0 +1,3 @@
+/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mnncore.dir

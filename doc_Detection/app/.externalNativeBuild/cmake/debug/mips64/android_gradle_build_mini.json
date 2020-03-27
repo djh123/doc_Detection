@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/mips64 --target clean"
+  ],
+  "libraries": {
+    "MNN-Debug-mips64": {
+      "artifactName": "MNN",
+      "abi": "mips64",
+      "output": "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/libs/mips64/libMNN.so"
+    },
+    "mnncore-Debug-mips64": {
+      "artifactName": "mnncore",
+      "buildCommand": "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/debug/mips64 --target mnncore",
+      "abi": "mips64",
+      "output": "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/build/intermediates/cmake/debug/obj/mips64/libmnncore.so"
+    }
+  }
+}

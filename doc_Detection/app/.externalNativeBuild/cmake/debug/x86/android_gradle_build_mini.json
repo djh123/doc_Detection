@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "mnncore-Debug-x86": {
+      "artifactName": "mnncore",
+      "buildCommand": "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/x86 --target mnncore",
+      "abi": "x86",
+      "output": "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/build/intermediates/cmake/debug/obj/x86/libmnncore.so"
+    },
+    "MNN-Debug-x86": {
+      "artifactName": "MNN",
+      "abi": "x86",
+      "output": "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/libs/x86/libMNN.so"
+    }
+  }
+}

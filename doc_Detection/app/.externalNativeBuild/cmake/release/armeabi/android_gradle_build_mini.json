@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+  ],
+  "libraries": {
+    "MNN-Release-armeabi": {
+      "artifactName": "MNN",
+      "abi": "armeabi",
+      "output": "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/libs/armeabi/libMNN.so"
+    },
+    "mnncore-Release-armeabi": {
+      "artifactName": "mnncore",
+      "buildCommand": "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/.externalNativeBuild/cmake/release/armeabi --target mnncore",
+      "abi": "armeabi",
+      "output": "/home/djh/workPlace/6.AI/20.dual/MNN/demo/android/app/build/intermediates/cmake/release/obj/armeabi/libmnncore.so"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MNN-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "MNN",
+			"buildType" : "debug",
+			"output" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/libs/arm64-v8a/libMNN.so",
+			"toolchain" : "4852938531348240058"
+		},
+		"mnncore-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "mnncore",
+			"buildCommand" : "/home/djh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/arm64-v8a --target mnncore",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC    -c ",
+					"src" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/src/main/jni/mnnnetnative.cpp",
+					"workingDirectory" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC    -c ",
+					"src" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/src/main/jni/mnnportraitnative.cpp",
+					"workingDirectory" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/djh/remote/1.work/dual/MNN实例征集/doc_Detection/app/build/intermediates/cmake/debug/obj/arm64-v8a/libmnncore.so",
+			"toolchain" : "4852938531348240058"
+		}
+	},
+	"toolchains" : 
+	{
+		"4852938531348240058" : 
+		{
+			"cCompilerExecutable" : "/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/djh/djh/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
