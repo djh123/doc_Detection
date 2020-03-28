@@ -9,6 +9,7 @@
 ## 如何建立自己的文档检测apk
 - 1.模型训练
 >参考如下文章
+https://zhuanlan.zhihu.com/p/118519555
 
 - 2.android工程的导入
 >参考如下文章
@@ -18,4 +19,4 @@ https://blog.csdn.net/u010998327/article/details/80320060
 
 ![1](./pic/1.png)
 
-![1](./pic/2.png)
+![2](./pic/2.png)
