@@ -4,7 +4,7 @@
 
 ## 快速体验
 - 1.adb install app-debug.apk
-- 2.adb push frozen_model.mnn
+- 2.adb push frozen_model.mnn /sdcard/
 
 ## 如何建立自己的文档检测apk
 - 1.模型训练
